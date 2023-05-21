@@ -27,7 +27,7 @@ using “MD-5” algorithm
 >## API Documentation
 The API endpoints will be available at swagger documentation
 
->#### Database Design
+>## Database Design
 The API uses a MySQL database to store its data. The database design includes the following tables:
 
 user: Stores user information such as username, password, and order history.
