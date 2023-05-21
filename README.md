@@ -33,9 +33,5 @@ The API uses a MySQL database to store its data. The database design includes th
 user: Stores user information such as username, password, and order history.
 food_item: Contains information about food items, including their name, description, and price.
 
->## Contributors
-
-Satyam Jaiswal(satyam1459)
-
 >## Project Summary
 The Food Delivery Platform API is a Spring Boot-based application that provides endpoints for users to order food items from restaurants. It ensures secure authentication for users and allows administrators to manage food items through CRUD operations. The API communicates with a MySQL database to store and retrieve user and food item data.
