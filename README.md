@@ -1,17 +1,32 @@
-# Food delivery Application
-### Requirements
-  * IntelliJIDEA
-  * ServerPort: 8080 (use: 16.171.208.1:8080)
-  * Java version: 17
-  * Everything is present in the pom.xml (no need to download any  library)
-  * AWS(EC2)
-### Steps to run the Project
-* Download the source code and import in intellijIDEA.
-*  Go to 16.171.208:8080/
-* Put specific end_points besides the port accordingly to run the project to access and modify the data or *Click on the link which is integrated with swagger and use it 
-http://16.171.208.1:8080/swagger-ui/index.html#/
+<h1 align="center"> 
+Food Delivery Platform API</h1>
 
-## Dependencies
+* This repository contains the code for a food delivery platform API that allows users to order food from restaurants. The API is developed using the Spring Boot framework and utilizes MySQL as the database management system. It supports user authentication, CRUD operations for food items by administrators, and tracking of user orders.
+
+* Implemented CRUD operations with data validation, MySQL database configuration, 
+Swagger integration, authentication and established table relationships, authentication 
+using “MD-5” algorithm
+
+* Tech stack used: Spring Boot, Hibernate, MySQL, OOPs, Postman, Swagger, and Java
+>### Prerequisites
+* ![MySql](https://img.shields.io/badge/DBMS-MYSQL%205.7%20or%20Higher-red)
+* ![SpringBoot](https://img.shields.io/badge/Framework-SpringBoot-green)
+
+
+* ![Java](https://img.shields.io/badge/Language-Java%208%20or%20higher-yellow)
+>### Requirements
+  * IntelliJIDEA
+  * ServerPort: 8080 (use: 16.16.58.27:8080)
+  * Java version: 17
+  * Everything is present in the pom.xml
+  * AWS(EC2)
+>### Steps to run the Project
+* Download the source code and import in intellijIDEA.
+*  Go to [http://16.16.58.27:8080/]
+* Put specific end_points besides the port accordingly to run the project to access and modify the data or *Click on the link which is integrated with swagger and use it 
+[http://16.16.58.27:8080/swagger-ui/index.html#/]
+
+>## Dependencies
  ### Validation
    * Bean Validation with Hibernate validator.
  ### Spring Web
@@ -28,7 +43,7 @@ http://16.171.208.1:8080/swagger-ui/index.html#/
   * MySQL JDBC driver.
 ### Swagger
   * It provide the UserInterface for all our API's.
-## Project Structure(MVC Structure)
+>## Project Structure(MVC Structure)
 ### Model
 * #### User Model
 * #### Order Model
@@ -71,7 +86,7 @@ http://16.171.208.1:8080/swagger-ui/index.html#/
   * create-user
   * getallUsers
   * login
-## Working
+>## Working
 Project mainly focuses on Users, Orders and foodItems.
 Crud operations on User like add user,fetch user,login user.
 Crud operation on Orders like add order and fetch order.
@@ -80,7 +95,7 @@ We have provide the validations on every entry data from the end user.
 All the can be seen in the mySql workbench
 we have deployed our project by using Static Url of the AWS Server which helps in running the project in background.
 
-## Authors
+>## Authors
 
-- [@Rudra Pratap Singh](https://github.com/rudrapratapsingh2000)
+- [@Vivek Raj](https://github.com/VIVEKRAJ14)
 
