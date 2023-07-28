@@ -67,7 +67,7 @@ Food Delivery Platform API</h1>
 * #### AdminService
 ## EndPoints
 * ### Admin
-  * creat-admin
+  * create-admin
   * getadmin
   * create-food-item
   * getallfood
