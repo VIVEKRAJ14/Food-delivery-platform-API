@@ -1,11 +1,12 @@
 <h1 align="center"> 
 Food Delivery Platform API</h1>
 
-* This repository contains the code for a food delivery platform API that allows users to order food from restaurants. The API is developed using the Spring Boot framework and utilizes MySQL as the database management system. It supports user authentication, CRUD operations for food items by administrators, and tracking of user orders.
+* This repository contains the code for a food delivery platform API that allows users to order food from restaurants. The API is 
+  developed using the Spring Boot framework and utilizes MySQL as the database management system. It supports user CRUD operations for 
+  food items by administrators, and tracking of user orders.
 
-* Implemented CRUD operations with data validation, MySQL database configuration, 
-Swagger integration, authentication and established table relationships, authentication 
-using “MD-5” algorithm
+* Implemented CRUD operations with data validation, MySQL database configuration, Swagger integration and established table 
+  relationships.
 
 * Tech stack used: Spring Boot, Hibernate, MySQL, OOPs, Postman, Swagger, and Java
 >### Prerequisites
